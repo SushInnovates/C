@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    //rules for naming varible in c
+    int a;
+    int b;
+    int c;
+    int cab;
+    int sush;
+    int sush sutar; //it does not support wide spaces
+    int 1; //it does not start with number 
+    int 1b;//it does not start with number
+    int b1;
+    int sush_sutar;
+    int a#; //it does not support special characters
+    
+}

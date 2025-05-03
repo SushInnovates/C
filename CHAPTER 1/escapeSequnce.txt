@@ -1,0 +1,6 @@
+there are following Escape Sequences
+1> \n : it represents a new line
+2> \t : it gives a tab (space)
+3> \" \" : it gives double qoutes in line used to mark something with qoutes where we cant directly use qoutes
+4> \' \' : it gives single qoutes in line used to mark something with qoutes where we cant directly use qoutes
+5>\\ : it will print "\" ex- \\s it will print \s

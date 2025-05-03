@@ -1,0 +1,14 @@
+        for now just focus on these three datatypes 
+int 
+float 
+char
+
+memery occupied by these datatypes depends on computer or
+system,
+most likely 
+    int is 4 bytes
+    float is 1 bytes
+    char is 1 byte
+
+    (note:1 byte is of 8bits )
+
