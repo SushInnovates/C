@@ -18,22 +18,22 @@ void countingSort(int arr[], int n, int exp) {
     for (int i = 0; i < n; i++)
         count[(arr[i] / exp) % 10]++;
 
-    // Update count[i] so that count[i] contains actual position
+  
     for (int i = 1; i < 10; i++)
         count[i] += count[i - 1];
 
-    // Build the output array
+
     for (int i = n - 1; i >= 0; i--) {
         output[count[(arr[i] / exp) % 10] - 1] = arr[i];
         count[(arr[i] / exp) % 10]--;
     }
 
-    // Copy output to arr[]
+    
     for (int i = 0; i < n; i++)
         arr[i] = output[i];
 }
 
-// Main radix sort function
+
 void radixSort(int arr[], int n) {
     int max = getMax(arr, n);
 
