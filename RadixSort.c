@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Function to get the maximum value in the array
+
 int getMax(int arr[], int n) {
     int max = arr[0];
     for (int i = 1; i < n; i++)
@@ -9,12 +9,12 @@ int getMax(int arr[], int n) {
     return max;
 }
 
-// Counting sort used by radix sort
+
 void countingSort(int arr[], int n, int exp) {
     int output[n]; // output array
     int count[10] = {0};
 
-    // Count occurrences of digits
+   
     for (int i = 0; i < n; i++)
         count[(arr[i] / exp) % 10]++;
 
