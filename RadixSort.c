@@ -37,19 +37,18 @@ void countingSort(int arr[], int n, int exp) {
 void radixSort(int arr[], int n) {
     int max = getMax(arr, n);
 
-    // Apply counting sort for every digit
     for (int exp = 1; max / exp > 0; exp *= 10)
         countingSort(arr, n, exp);
 }
 
-// Utility function to print the array
+
 void printArray(int arr[], int n) {
     for (int i = 0; i < n; i++)
         printf("%d ", arr[i]);
     printf("\n");
 }
 
-// Driver code
+
 int main() {
     int arr[] = {170, 45, 75, 90, 802, 24, 2, 66};
     int n = sizeof(arr) / sizeof(arr[0]);
